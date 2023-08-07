@@ -58,7 +58,7 @@ def update(frame):
             earth_line, mercury_line, mars_line, venus_line)
 
 # Create the animation
-ani = FuncAnimation(fig, update, frames=num_frames, interval=interval, repeat=False, blit=True)
+ani = FuncAnimation(fig, update, frames=num_frames, interval=interval, repeat=True, blit=True)
 
 # Set up the legend
 ax.legend()
